@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap");
 
+@import "./extends";
+@import "./variables";
+@import "./mixin";
+
 body {
-  background-color: black;
+  background-color: $color-fondo;
   font-family: "Oswald", sans-serif;
 }
 
@@ -54,17 +58,6 @@ footer {
   justify-content: center;
   img {
     width: 500px;
-  }
-}
-
-.section-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  img {
-    display: flex;
-    justify-content: center;
-    width: 50vh;
   }
 }
 

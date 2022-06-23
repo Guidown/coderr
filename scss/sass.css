@@ -1,4 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap");
+.section-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.section-card img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 50vh;
+}
+
 body {
   background-color: black;
   font-family: "Oswald", sans-serif;
@@ -11,12 +33,17 @@ body {
 }
 
 .section-1 {
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
 .carousel-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 100vw;
 }
@@ -27,14 +54,21 @@ footer {
 
 @media screen and (max-width: 990px) {
   header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .section-1 {
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
@@ -42,6 +76,7 @@ footer {
 
 @media screen and (max-width: 880px) {
   .section-1 {
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
@@ -53,6 +88,8 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -60,26 +97,16 @@ footer {
   width: 500px;
 }
 
-.section-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.section-card img {
-  display: flex;
-  justify-content: center;
-  width: 50vh;
-}
-
 .formul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   justify-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 /*# sourceMappingURL=sass.css.map */

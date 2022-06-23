@@ -3,6 +3,7 @@
 @import "./extends";
 @import "./variables";
 @import "./mixin";
+@import "./maps";
 
 body {
   background-color: $color-fondo;
@@ -38,7 +39,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@include Desktop {
   .section-1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

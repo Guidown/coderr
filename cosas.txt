@@ -4,6 +4,8 @@ UNDEFINED
 HIGHER
 FIDA
 HYPESTYLE
+DROPKINGS
+HOLLISTER
 
 ----------
 CAMBIAS
@@ -18,7 +20,7 @@ CAMBIAS
 / agregar logo mas desarrollado
 / actualizar metas marketing, mas especificas
 / Usar .gitignore para ocultar cosas inutiles (node_modules, etc)
-
+/ Dar propiedad sticky al nav
 
 
 

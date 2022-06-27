@@ -1,4 +1,4 @@
-@mixin Tableta {
+@mixin Tablet {
   @media screen and (max-width: $tablet) {
     @content;
   }

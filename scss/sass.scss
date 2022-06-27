@@ -38,7 +38,7 @@ footer {
 }
 
 @media screen and (max-width: 990px) {
-  header {
+  .navbar-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,10 +53,14 @@ footer {
 }
 @media screen and (max-width: 880px) {
   .section-1 {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section-1 {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -65,7 +69,18 @@ footer {
   justify-content: center;
   img {
     width: 500px;
+    margin-bottom: 6rem;
   }
+  @media screen and (max-width: 600px) {
+    img {
+      width: 300px;
+      margin-bottom: 5rem;
+    }
+  }
+}
+.h1-undef {
+  margin-bottom: 6rem;
+  text-align: center;
 }
 
 .formul {
@@ -75,13 +90,14 @@ footer {
   align-items: center;
 }
 
-.formul-index {
-  margin-top: 7.5rem;
-  -webkit-box-shadow: 0px 10px 13px -7px $color-fuente,
-    3px 12px 14px 5px $color-fuente;
-  box-shadow: 0px 10px 13px -7px $color-fuente, 3px 12px 14px 5px $color-fondo;
+#logo-index {
+  width: 12rem;
 }
 
-.nav-inicio img {
-  width: 12rem;
+.formul-index {
+  margin: 6rem;
+  box-shadow: 0px 10px 13px -7px $color-fuente, 3px 12px 14px 5px $color-fondo;
+  @include Movil {
+    margin: 2rem;
+  }
 }

@@ -18,7 +18,7 @@
     <meta name="author" content="Guido Bombini" />
     <meta name="copyright" content="HiddenClothes" />
     <meta name="robots" content="index" />
-    <link rel="icon" href="./imgs/ropa__1_-removebg-preview.png" />
+    <link rel="icon" href="./imgs/logo.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,16 +30,24 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="stylesheet" href="./scss/sass.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
 
     <title>Inicio</title>
   </head>
   <body>
+    <!--HEADER INICIO-->
     <header>
       <nav class="navbar navbar-expand-lg bg-transparent">
         <div class="container-fluid d-flex">
           <div class="nav-inicio">
-            <a class="navbar-brand text-light" href="index.html">Inicio</a>
+            <a class="navbar-brand text-light" href="index.html"
+              ><img src="./imgs/logo.png" alt=""
+            /></a>
           </div>
+
           <button
             class="navbar-toggler text-light bg-transparent"
             type="button"
@@ -64,7 +72,7 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Prendas
+                  Marcas
                 </a>
                 <ul
                   class="dropdown-menu"
@@ -115,14 +123,6 @@
                 >
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link active text-light"
-                  aria-current="page"
-                  href="./vistas/Quienes-somos.html"
-                  >¿Quienes Somos?</a
-                >
-              </li>
-              <li class="nav-item">
                 <a class="nav-link text-light" href="./vistas/Informacion.html"
                   >Informacion</a
                 >
@@ -137,252 +137,280 @@
         </div>
       </nav>
     </header>
-    <section class="section-card">
-      <div class="section-card contact-card card bg-transparent">
-        <img src="./imgs/contacto.jpg" class="card-img-top" alt="..." />
+    <!--HEADER FIN-->
+    <hr />
+    <!--SECTION GRID INICIO-->
+    <section class="grid-container">
+      <!--SECTION 1 BANNER INICIO-->
+      <div class="sect-1 text-light">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner carousel-one">
+            <div class="carousel-item active">
+              <img src="./imgs/banner.png" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+        </div>
       </div>
+      <!--SECTION 1 BANNER FIN-->
+      <!--SECTION 2 MAIN INICIO-->
+      <section class="sect-2 text-light">
+        <div class="buzo-1">Buzo 1</div>
+        <div class="buzo-2">Buzo 2</div>
+        <div class="buzo-3">Buzo 3</div>
+        <div class="buzo-4">Buzo 4</div>
+      </section>
+      <!--SECTION 2 MAIN FIN-->
+      <!--SECTION 3 CAROUSEL INICIO-->
+      <div class="slide-container swiper sect-3 text-light">
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide bg-transparent">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image bg-transparent">
+                  <img src="./imgs/HypeStyle/BLACK-HYPEGRAF.png" alt="" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name text-light">BLACK HYPEGRAF</h2>
+
+                <button class="button">
+                  <a href="" class="text-dark">Ver</a>
+                </button>
+              </div>
+            </div>
+            <div class="card swiper-slide bg-transparent">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image bg-transparent">
+                  <img src="./imgs/HypeStyle/hoodie-pop-smoke.png" alt="" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name text-light">HOODIE POP SMOKE</h2>
+
+                <button class="button">
+                  <a href="" class="text-dark">Ver</a>
+                </button>
+              </div>
+            </div>
+            <div class="card swiper-slide bg-transparent">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image bg-transparent">
+                  <img src="./imgs/HypeStyle/HOODIE-HOLODARK.png" alt="" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name text-light">HOODIE HOLODARK</h2>
+
+                <button class="button">
+                  <a href="" class="text-dark">Ver</a>
+                </button>
+              </div>
+            </div>
+            <div class="card swiper-slide bg-transparent">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image bg-transparent">
+                  <img src="./imgs/Fida/BUZO_ONI.png" alt="" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name text-light">BUZO ONI</h2>
+
+                <button class="button">
+                  <a href="" class="text-dark">Ver</a>
+                </button>
+              </div>
+            </div>
+            <div class="card swiper-slide bg-transparent">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image bg-transparent">
+                  <img src="./imgs/Fida/BUZO_DESIRE.png" alt="" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name text-light">BUZO DESIRE</h2>
+
+                <button class="button">
+                  <a href="" class="text-dark">Ver</a>
+                </button>
+              </div>
+            </div>
+            <div class="card swiper-slide bg-transparent">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image bg-transparent">
+                  <img src="./imgs/Fida/BUZO_HAUNT_ME.png" alt="" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name text-light">BUZO HAUNT ME</h2>
+
+                <button class="button">
+                  <a href="" class="text-dark">Ver</a>
+                </button>
+              </div>
+            </div>
+            <div class="card swiper-slide bg-transparent">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image bg-transparent">
+                  <img src="./imgs/Fida/souls-in-hell.png" alt="" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name text-light">SOULS IN HELL</h2>
+
+                <button class="button">
+                  <a href="" class="text-dark">Ver</a>
+                </button>
+              </div>
+            </div>
+            <div class="card swiper-slide bg-transparent">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image bg-transparent">
+                  <img src="./imgs/Undefined/psychodrama.jpg" alt="" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name text-light">PSYCHODRAMA</h2>
+
+                <button class="button">
+                  <a href="" class="text-dark">Ver</a>
+                </button>
+              </div>
+            </div>
+            <div class="card swiper-slide bg-transparent">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image bg-transparent">
+                  <img src="./imgs/Higher/BUZO BLINDING.png" alt="" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name text-light">BUZO BLINDING</h2>
+                <button class="button">
+                  <a href="" class="text-dark">Ver</a>
+                </button>
+              </div>
+            </div>
+            <div class="card swiper-slide bg-transparent">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image bg-transparent">
+                  <img src="./imgs/HypeStyle/HOODIE-SNAKE-BLACK.png" alt="" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name text-light">HOODIE SNAKE BLACK</h2>
+                <button class="button">
+                  <a href="" class="text-dark">Ver</a>
+                </button>
+              </div>
+            </div>
+            <div class="card swiper-slide bg-transparent">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image bg-transparent">
+                  <img src="./imgs/HypeStyle/WASHED DOG TEE.png" alt="" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name text-light">WASHED DOG TEE</h2>
+                <button class="button">
+                  <a href="" class="text-dark">Ver</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!--SECTION 3 CAROUSEL FIN-->
+      <!--SECTION 4 CORREO INICIO-->
+      <div class="sect-4 text-light">
+        <section class="formul formul-index">
+          <form class="forms w-50">
+            <div class="mb-3">
+              <div id="emailHelp" class="form-text text-light">
+                <h2>Si desea recibir informacion al correo ingrese</h2>
+              </div>
+              <label for="exampleInputEmail1" class="form-label text-light"
+                >Correo electrónico</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3"></div>
+
+            <button
+              type="submit"
+              class="btn btn-primary text-light bg-transparent"
+            >
+              Enviar
+            </button>
+          </form>
+        </section>
+      </div>
+      <!--SECTION 4 CORREO FIN-->
     </section>
-    <h2 class="text-light">UNDEFINED</h2>
-    <section class="section-1">
-      <div class="cardbg-transparent" style="width: 18rem">
-        <a href="https://undefinedba.com/productos/traptar-p/" target="_blank">
-          <img
-            src="./imgs/Undefined/Trapstar-p.png"
-            class="card-img-top"
-            alt="TRAP$TAR P"
-          />
-        </a>
-        <div class="card-body bg-transparent">
-          <p class="card-text text-light">TRAP$TAR P</p>
-        </div>
-      </div>
-      <div class="card bg-transparent" style="width: 18rem">
-        <a href="https://undefinedba.com/productos/traptar-r/" target="_blank">
-          <img
-            src="./imgs/Undefined/Trapstar-R.png"
-            class="card-img-top"
-            alt="TRAP$TAR R"
-        /></a>
-        <div class="bg-transparent">
-          <p class="card-text text-light">TRAP$TAR R</p>
-        </div>
-      </div>
-      <div class="cardbg-transparent" style="width: 18rem">
-        <a href="https://undefinedba.com/productos/traptar-z1/" target="_blank">
-          <img
-            src="./imgs/Undefined/trapstar-z.png"
-            class="card-img-top"
-            alt="TRAP$TAR Z"
-          />
-        </a>
-        <div class="card-body">
-          <p class="card-text text-light">TRAP$TAR Z</p>
-        </div>
-      </div>
-      <div class="card bg-transparent" style="width: 18rem">
-        <a href="https://undefinedba.com/productos/traptar-f/" target="_blank">
-          <img
-            src="./imgs/Undefined/trapstar.jpg"
-            class="card-img-top"
-            alt="TRAP$TAR F"
-          />
-        </a>
-        <div class="card-body">
-          <p class="card-text text-light">TRAP$TAR F</p>
-        </div>
-      </div>
-    </section>
-    <h2 class="text-light">HIGHER</h2>
-    <section class="section-1">
-      <div class="card bg-transparent" style="width: 18rem">
-        <a
-          href="https://www.higher.com.ar/productos/buzo-teddy/?variant=473544405"
-          target="_blank"
-        >
-          <img
-            src="./imgs/Higher/BUZO TEDDY AZUL.png"
-            class="card-img-top"
-            alt="BUZO TEDDY AZUL"
-          />
-        </a>
-        <div class="card-body">
-          <p class="card-text text-light">BUZO TEDDY AZUL</p>
-        </div>
-      </div>
-      <div class="card bg-transparent" style="width: 18rem">
-        <a
-          href="https://www.higher.com.ar/productos/buzo-teddy1/?variant=473543708"
-          target="_blank"
-        >
-          <img
-            src="./imgs/Higher/buzo teddy blanco.png"
-            class="card-img-top"
-            alt="BUZO TEDDY BLANCO"
-        /></a>
-        <div class="card-body">
-          <p class="card-text text-light">BUZO TEDDY BLANCO</p>
-        </div>
-      </div>
-      <div class="card bg-transparent" style="width: 18rem">
-        <a
-          href="https://www.higher.com.ar/productos/buzo-bimbo4/?variant=473440018"
-          target="_blank"
-        >
-          <img
-            src="./imgs/Higher/BUZO BIMBO ROJO.png"
-            class="card-img-top"
-            alt="BUZO TEDDY ROJO"
-          />
-        </a>
-        <div class="card-body">
-          <p class="card-text text-light">BUZO TEDDY ROJO</p>
-        </div>
-      </div>
-      <div class="card bg-transparent" style="width: 18rem">
-        <a
-          href="https://www.higher.com.ar/productos/buzo-teddy2/?variant=473542748"
-          target="_blank"
-        >
-          <img
-            src="./imgs/Higher/BUZO BIMBO MARRON CLARO.png"
-            class="card-img-top"
-            alt="BUZO TEDDY MARRON"
-          />
-        </a>
-        <div class="card-body">
-          <p class="card-text text-light">BUZO TEDDY MARRON</p>
-        </div>
-      </div>
-    </section>
-    <h2 class="text-light">HYPESTYLE</h2>
-    <section class="section-1">
-      <div class="card bg-transparent" style="width: 18rem">
-        <a
-          href="https://www.hypestyle.com.ar/productos/holder/"
-          target="_blank"
-        >
-          <img
-            src="./imgs/HypeStyle/holder.gif"
-            class="card-img-top"
-            alt="HOLDER"
-        /></a>
-        <div class="card-body">
-          <p class="card-text text-light">F*CK HATERS FT.HOLDER</p>
-        </div>
-      </div>
-      <div class="card bg-transparent" style="width: 18rem">
-        <a href="https://www.hypestyle.com.ar/productos/hoodie-holodark/">
-          <img
-            src="./imgs/HypeStyle/HOODIE-HOLODARK.png"
-            class="card-img-top"
-            alt="HOODIE HOLODARK"
-          />
-        </a>
-        <div class="card-body">
-          <p class="card-text text-light">HOODIE HOLODARK</p>
-        </div>
-      </div>
-      <div class="card bg-transparent" style="width: 18rem">
-        <a
-          href="https://www.hypestyle.com.ar/productos/hoodie-bred/"
-          target="_blank"
-          ><img
-            src="./imgs/HypeStyle/HOODIE-BRED.png"
-            class="card-img-top"
-            alt="HOODIE BRED"
-        /></a>
-        <div class="card-body">
-          <p class="card-text text-light">HOODIE BRED</p>
-        </div>
-      </div>
-      <div class="cardbg-transparent" style="width: 18rem">
-        <a
-          href="https://www.hypestyle.com.ar/productos/what-the-hoodie/"
-          target="_blank"
-          ><img
-            src="./imgs/HypeStyle/WHAT-THE-HOODIE.png"
-            class="card-img-top"
-            alt="WHAT THE HOODIE"
-        /></a>
-        <div class="card-body">
-          <p class="card-text text-light">"WHAT THE" HOODIE</p>
-        </div>
-      </div>
-    </section>
-    <h2 class="text-light">FIDA</h2>
-    <section class="section-1">
-      <div class="card bg-transparent" style="width: 18rem">
-        <a
-          href="https://www.fidaclothes.com/productos/acid-dragon-buzo-cuello-redondo/?variant=322476838"
-          target="_blank"
-        >
-          <img
-            src="./imgs/Fida/acid-dragon.png"
-            class="card-img-top"
-            alt="ACID-DRAGON"
-          />
-        </a>
-        <div class="card-body">
-          <p class="card-text text-light">ACID DRAGON / BUZO CUELLO REDONDO</p>
-        </div>
-      </div>
-      <div class="card bg-transparent" style="width: 18rem">
-        <a
-          href="https://www.fidaclothes.com/productos/oni-buzo/?variant=350758271"
-          target="_blank"
-        >
-          <img
-            src="./imgs/Fida/BUZO_ONI.png"
-            class="card-img-top"
-            alt="ONI-BUZO"
-        /></a>
-        <div class="card-body">
-          <p class="card-text text-light">ONI BUZO</p>
-        </div>
-      </div>
-      <div class="card bg-transparent" style="width: 18rem">
-        <a
-          href="https://www.fidaclothes.com/productos/desire-buzo-cuello-redondo/?variant=329543615"
-          target="_blank"
-        >
-          <img
-            src="./imgs/Fida/BUZO_DESIRE.png"
-            class="card-img-top"
-            alt="DESIRE"
-          />
-        </a>
-        <div class="card-body">
-          <p class="card-text text-light">DESIRE / BUZO CUELLO REDONDO</p>
-        </div>
-      </div>
-      <div class="card bg-transparent" style="width: 18rem">
-        <a
-          href="https://www.fidaclothes.com/productos/haunt-me-buzo/?variant=462271326"
-          target="_blank"
-        >
-          <img
-            src="./imgs/Fida/BUZO_HAUNT_ME.png"
-            class="card-img-top"
-            alt="HAUNT ME BUZO"
-          />
-        </a>
-        <div class="card-body">
-          <p class="card-text text-light">HAUNT ME BUZO</p>
-        </div>
-      </div>
-    </section>
+    <!--SECTION GRID FIN-->
+    <hr />
+    <!--FOOTER INICIO-->
     <footer>
       <div class="card text-center bg-transparent">
         <div class="card-body">
-          <h5 class="card-title text-light">StreetShop</h5>
+          <h5 class="card-title text-light">StreetWearShop</h5>
           <p class="card-text text-light">QUALITY STREETWEAR</p>
         </div>
       </div>
     </footer>
+    <!--FOOTER FIN-->
   </body>
+  <!--BOOTSTRAP-->
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js "
     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj "
     crossorigin="anonymous "
   ></script>
+  <!--SWIPER.JS-->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./JS/swiper.js"></script>
 </html>

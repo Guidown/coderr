@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/sass.scss css/styles.css",
+    "build-css": "node-sass --include-path scss scss/sass.scss scss/sass.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "animate.css": "^4.1.1",
-    "bootstrap-icons": "^1.8.3"
+    "bootstrap-icons": "^1.8.3",
+    "swiper": "^8.2.4"
   },
   "devDependencies": {
     "node-sass": "^7.0.1",

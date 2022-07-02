@@ -1,12 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap");
-.section-card {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .section-card img {
+.Contacto-grid {
+  display: grid;
+  grid-template-areas: "Imagen Form"; }
+  .Contacto-grid .section-card {
+    grid-area: Imagen;
     display: flex;
     justify-content: center;
-    width: 50vh; }
+    align-items: center; }
+    .Contacto-grid .section-card img {
+      display: flex;
+      width: 70vh; }
+  .Contacto-grid .formul {
+    grid-area: Form; }
 
 .grid-container {
   padding: 10px;

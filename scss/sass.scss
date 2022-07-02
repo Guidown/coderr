@@ -71,7 +71,7 @@ footer {
     width: 500px;
     margin-bottom: 6rem;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: $seis) {
     img {
       width: 300px;
       margin-bottom: 5rem;

@@ -107,9 +107,9 @@ footer {
 }
 
 .ul-dropdown {
-  background: rgb(37, 37, 37);
+  background: rgba(37, 37, 37, 0.897);
   .li-dropdown {
-    color: black;
+    color: rgb(255, 255, 255);
   }
 }
 @media screen and (max-width: $tablet) {

@@ -26,14 +26,14 @@ img {
   @media screen and (max-width: 768px) {
     .Contacto-grid {
       display: grid;
-      grid-template-areas: "Imagen" "Form "; } }
+      grid-template-areas: "Imagen" "Form "; } }
 
 .grid-container {
   padding: 10px;
   text-align: center;
   display: grid;
   gap: 10px;
-  grid-template-areas: "img_main" "main" "carousel" "correo";
+  grid-template-areas: "img_main" "main" "carousel" "correo";
   min-height: 100%; }
   .grid-container .sect-1 {
     grid-area: img_main;
@@ -52,7 +52,7 @@ img {
     grid-area: main;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "buzo_1 buzo_2" "buzo_3 buzo_4";
+    grid-template-areas: "buzo_1 buzo_2" "buzo_3 buzo_4";
     justify-content: space-around; }
     .grid-container .sect-2 .buzo-1 {
       grid-area: buzo_1; }
@@ -64,7 +64,7 @@ img {
       grid-area: buzo_4; }
     @media screen and (max-width: 768px) {
       .grid-container .sect-2 {
-        grid-template-areas: "buzo_1" "buzo_2" "buzo_3" "buzo_4"; } }
+        grid-template-areas: "buzo_1" "buzo_2" "buzo_3" "buzo_4"; } }
   .grid-container .sect-3 {
     grid-area: carousel;
     width: 100%;
@@ -235,9 +235,9 @@ footer {
   margin-top: 2rem; }
 
 .ul-dropdown {
-  background: #252525; }
+  background: rgba(37, 37, 37, 0.897); }
   .ul-dropdown .li-dropdown {
-    color: black; }
+    color: white; }
 
 @media screen and (max-width: 768px) {
   .ul-dropdown {

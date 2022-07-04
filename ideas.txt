@@ -7,3 +7,6 @@
 - 
 - 
 - 
+
+ul - bg-transparent // li - text-light
+   = fondo de dropdown //  = color letras

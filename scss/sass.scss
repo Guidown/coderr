@@ -101,3 +101,22 @@ footer {
     margin: 2rem;
   }
 }
+
+.button-contact {
+  margin-top: 2rem;
+}
+
+.ul-dropdown {
+  background: rgb(37, 37, 37);
+  .li-dropdown {
+    color: black;
+  }
+}
+@media screen and (max-width: $tablet) {
+  .ul-dropdown {
+    background: transparent;
+    .li-dropdown {
+      color: white;
+    }
+  }
+}

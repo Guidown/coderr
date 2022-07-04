@@ -8,10 +8,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-    <meta
-      name="description"
-      content="Ropa Urbana estilo StreetWear, ropa de calle"
-    />
+    <meta name="description" content="Contacto" />
     <meta
       name="keyword"
       content="pagina ropa,ropa,ropa calle,streetwear,ropa fachera,ropa facherita,argentina "
@@ -130,19 +127,23 @@
           id="Contact-img"
         >
           <img
-            src="../imgs/contact-img.svg"
+            src="../imgs/undraw_join_re_w1lh.svg"
             class="card-img-top w-85"
             alt="..."
           />
-          <div class="card-body">
-            <h5 class="card-title text-light">Contactanos</h5>
-          </div>
         </div>
       </section>
       <!--Fin Section-Card-->
       <!--Inicio Formulario-->
       <section class="formul">
         <form class="forms w-50">
+          <div class="card-body">
+            <h2 class="card-title text-light h2-contact">Contactanos</h2>
+          </div>
+          <div class="form-group">
+            <label for="name" class="form-label text-light">Nombre</label>
+            <input type="text" id="name" name="name" class="form-control" />
+          </div>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label text-light"
               >Correo electrónico</label
@@ -158,24 +159,29 @@
             </div>
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label text-light"
-              >Password</label
+            <label
+              for="exampleFormControlTextarea1"
+              class="form-label text-light"
+              >Mensaje</label
             >
-            <input type="box" class="form-control" id="exampleInputPassword1" />
+            <small class="m-left-quarter">(Opcional)</small>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
           </div>
-          <div class="mb-3 form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label text-light" for="exampleCheck1"
-              >Check me out</label
-            >
+          <div class="form-group">
+            <label for="phone" class="form-label text-light">
+              Teléfono
+              <small class="m-left-quarter text-dark">(Opcional)</small>
+            </label>
+            <input type="text" id="phone" name="phone" class="form-control" />
           </div>
+
           <button
             type="submit"
-            class="btn btn-primary text-light bg-transparent"
+            class="btn btn-primary text-light bg-transparent button-contact"
           >
             Submit
           </button>

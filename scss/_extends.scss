@@ -1,3 +1,7 @@
+img {
+  max-width: 100%;
+}
+
 .Contacto-grid {
   display: grid;
   grid-template-areas: "Imagen Form";
@@ -7,13 +11,28 @@
     justify-content: center;
     align-items: center;
     img {
+      object-fit: cover;
       display: flex;
-
       width: 70vh;
+      max-width: 100%;
     }
   }
   .formul {
     grid-area: Form;
+  }
+  .forms {
+    flex: 1;
+    padding: 3rem;
+    .h2-contact {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    display: grid;
+    grid-template-areas:
+      "Imagen"
+      "Form ";
   }
 }
 

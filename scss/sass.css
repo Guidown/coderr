@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap");
+img {
+  max-width: 100%; }
+
 .Contacto-grid {
   display: grid;
   grid-template-areas: "Imagen Form"; }
@@ -8,10 +11,22 @@
     justify-content: center;
     align-items: center; }
     .Contacto-grid .section-card img {
+      object-fit: cover;
       display: flex;
-      width: 70vh; }
+      width: 70vh;
+      max-width: 100%; }
   .Contacto-grid .formul {
     grid-area: Form; }
+  .Contacto-grid .forms {
+    flex: 1;
+    padding: 3rem; }
+    .Contacto-grid .forms .h2-contact {
+      display: flex;
+      justify-content: center; }
+  @media screen and (max-width: 768px) {
+    .Contacto-grid {
+      display: grid;
+      grid-template-areas: "Imagen" "Form "; } }
 
 .grid-container {
   padding: 10px;
@@ -215,3 +230,17 @@ footer {
   @media screen and (max-width: 480px) {
     .formul-index {
       margin: 2rem; } }
+
+.button-contact {
+  margin-top: 2rem; }
+
+.ul-dropdown {
+  background: #252525; }
+  .ul-dropdown .li-dropdown {
+    color: black; }
+
+@media screen and (max-width: 768px) {
+  .ul-dropdown {
+    background: transparent; }
+    .ul-dropdown .li-dropdown {
+      color: white; } }

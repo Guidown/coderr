@@ -160,8 +160,27 @@ img {
   grid-template-areas: "Img Info" "Contacto Contacto"; }
   .Grid-Info .Img-Info {
     grid-area: Img; }
+    .Grid-Info .Img-Info img {
+      width: 50vh;
+      display: flex;
+      justify-items: center;
+      margin-left: 5rem; }
   .Grid-Info .Icons-Info {
-    grid-area: Contacto; }
+    grid-area: Contacto;
+    display: flex;
+    justify-content: center; }
+  .Grid-Info .Info-Contacto {
+    grid-area: Info; }
+    .Grid-Info .Info-Contacto p {
+      margin: 5rem 10rem 5rem 10rem;
+      box-shadow: 0px 10px 13px -7px white, 3px 12px 14px 5px black;
+      padding: 3rem; }
+  .Grid-Info #correo {
+    width: 3rem; }
+  @media screen and (max-width: 768px) {
+    .Grid-Info {
+      display: grid;
+      grid-template-areas: "Img" "Info" "Contacto"; } }
 
 * {
   box-sizing: border-box;

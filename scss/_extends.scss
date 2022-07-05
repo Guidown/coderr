@@ -1,3 +1,5 @@
+@import "./variables";
+
 img {
   max-width: 100%;
 }
@@ -218,9 +220,35 @@ img {
     "Contacto Contacto";
   .Img-Info {
     grid-area: Img;
+    img {
+      width: 50vh;
+      display: flex;
+      justify-items: center;
+      margin-left: 5rem;
+    }
   }
   .Icons-Info {
     grid-area: Contacto;
+    display: flex;
+    justify-content: center;
   }
-  
+  .Info-Contacto {
+    grid-area: Info;
+    p {
+      margin: 5rem 10rem 5rem 10rem;
+      box-shadow: 0px 10px 13px -7px $color-fuente,
+        3px 12px 14px 5px $color-fondo;
+      padding: 3rem;
+    }
+  }
+  #correo {
+    width: 3rem;
+  }
+  @media screen and (max-width: 768px) {
+    display: grid;
+    grid-template-areas:
+      "Img"
+      "Info"
+      "Contacto";
+  }
 }

@@ -73,6 +73,7 @@ img {
       "buzo_1 buzo_2"
       "buzo_3 buzo_4";
     justify-content: space-around;
+    margin-top: 5rem;
 
     .buzo-1 {
       grid-area: buzo_1;
@@ -206,7 +207,20 @@ img {
     grid-area: correo;
   }
 }
-
 #logo-index {
   width: 8rem;
+}
+
+.Grid-Info {
+  display: grid;
+  grid-template-areas:
+    "Img Info"
+    "Contacto Contacto";
+  .Img-Info {
+    grid-area: Img;
+  }
+  .Icons-Info {
+    grid-area: Contacto;
+  }
+  
 }

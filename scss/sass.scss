@@ -34,7 +34,7 @@ body {
 }
 
 footer {
-  margin-top: 7rem;
+  margin-top: 3rem;
 }
 
 @media screen and (max-width: 990px) {
@@ -119,4 +119,15 @@ footer {
       color: white;
     }
   }
+}
+
+.navbar-index {
+  position: sticky;
+}
+
+.Footer-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }

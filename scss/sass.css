@@ -157,7 +157,7 @@ img {
 
 .Grid-Info {
   display: grid;
-  grid-template-areas: "Img Info" "Contacto Contacto"; }
+  grid-template-areas: "Img Info"; }
   .Grid-Info .Img-Info {
     grid-area: Img; }
     .Grid-Info .Img-Info img {
@@ -181,6 +181,10 @@ img {
     .Grid-Info {
       display: grid;
       grid-template-areas: "Img" "Info" "Contacto"; } }
+
+.Footer-icons {
+  display: flex;
+  justify-content: center; }
 
 * {
   box-sizing: border-box;

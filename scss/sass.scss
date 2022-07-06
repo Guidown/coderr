@@ -51,7 +51,7 @@ footer {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: $ocho) {
   .section-1 {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;

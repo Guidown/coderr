@@ -30,7 +30,7 @@ img {
       justify-content: center;
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: $tablet) {
     display: grid;
     grid-template-areas:
       "Imagen"
@@ -62,7 +62,7 @@ img {
         height: 100%;
         width: 100%;
       }
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: $movil) {
         object-position: 20% 10%;
       }
     }
@@ -90,7 +90,7 @@ img {
       grid-area: buzo_4;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: $tablet) {
       grid-template-areas:
         "buzo_1"
         "buzo_2"
@@ -196,7 +196,7 @@ img {
       width: 100%;
       transform: scale(1.68);
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: $tablet) {
       .slide-content {
         margin: 0 10px;
       }
@@ -215,9 +215,7 @@ img {
 
 .Grid-Info {
   display: grid;
-  grid-template-areas:
-    "Img Info"
-    "Contacto Contacto";
+  grid-template-areas: "Img Info";
   .Img-Info {
     grid-area: Img;
     img {
@@ -227,6 +225,7 @@ img {
       margin-left: 5rem;
     }
   }
+
   .Icons-Info {
     grid-area: Contacto;
     display: flex;
@@ -244,11 +243,15 @@ img {
   #correo {
     width: 3rem;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: $tablet) {
     display: grid;
     grid-template-areas:
       "Img"
       "Info"
       "Contacto";
   }
+}
+.Footer-icons {
+  display: flex;
+  justify-content: center;
 }
